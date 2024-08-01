@@ -21,7 +21,7 @@
         <a
           href="#"
           class="btn btn-outline-primary btn-sm"
-        >Detalhar</a>
+        >Ver alunos</a>
         <a
           href="#"
           class="btn btn-outline-warning btn-sm"
