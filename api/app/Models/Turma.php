@@ -14,8 +14,6 @@ class Turma extends Model
     use HasFactory;
     use SoftDeletes;
 
-    protected $table = 'turmas';
-
     protected $fillable = [
         'nome',
         'ano',
