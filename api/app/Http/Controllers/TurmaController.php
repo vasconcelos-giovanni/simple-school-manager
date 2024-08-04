@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreTurmaRequest;
 use App\Http\Requests\UpdateTurmaRequest;
+use App\Http\Resources\AlunoResource;
 use App\Http\Resources\TurmaResource;
 use App\Models\Turma;
 use Illuminate\Http\Request;
@@ -45,5 +46,12 @@ class TurmaController extends Controller
             $turma->delete();
             return response()->json(null, Response::HTTP_NO_CONTENT);
         });
+    }
+
+    public function alunos(Turma $turma)
+    {
+        $alunos = $turma->alunos;
+
+        return response()->json(AlunoResource::collection($alunos));
     }
 }
