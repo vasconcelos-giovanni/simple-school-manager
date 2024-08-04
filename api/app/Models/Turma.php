@@ -1,7 +1,5 @@
 <?php
 
-// declare(strict_types=1);
-
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -20,7 +18,7 @@ class Turma extends Model
         'periodo',
     ];
 
-    public function turmas(): HasMany
+    public function alunos(): HasMany
     {
         return $this->hasMany(Aluno::class);
     }
