@@ -21,9 +21,19 @@ class TurmaFactory extends Factory
      */
     public function definition(): array
     {
+        /**
+         * @var string $classroomName
+         */
+        $classroomName = $this->faker->word;
+
+        /**
+         * @var string $capializedFullClassroomName
+         */
+        $capializedFullClassroomName = ucwords("Turma $classroomName");
+
         return [
-            'nome' => $this->faker->word,
-            'ano' => $this->faker->numberBetween(1, 4),
+            'nome' => $capializedFullClassroomName,
+            'ano' => (int)$this->faker->numberBetween(1, 4),
             'periodo' => $this->faker->randomElement(['matutino', 'vespertino', 'noturno']),
         ];
     }
