@@ -48,6 +48,9 @@ class TurmaSeeder extends Seeder
                 ->count(5)
                 ->state(new Sequence(...$predefinedValues))
                 ->create();
+            Turma::factory()
+            ->count(1)
+            ->create();
         });
     }
 }
