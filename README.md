@@ -2,6 +2,14 @@
 
 Simple School Manager is a simple manager for classrooms and students.
 
+## Screenshots
+
+![Home](/readme/img/1.png)
+![Classrooms](/readme/img/2.png)
+![Creating/Editing Classroom](/readme/img/3.png)
+![Students](/readme/img/4.png)
+![Creating/Editing Student](/readme/img/5.png)
+
 ## Project Setup Instructions
 
 This document provides instructions for setting up the local development environment for a project using Laravel 11 (PHP ^8.3.9) and Vue 3.
@@ -18,10 +26,10 @@ This document provides instructions for setting up the local development environ
 
 1. Clone the repository to your local machine:
 
-   ```bash
-   git clone https://github.com/vasconcelos-giovanni/simple-school-manager.git
-   cd simple-school-manager
-   ```
+```bash
+git clone https://github.com/vasconcelos-giovanni/simple-school-manager.git
+cd simple-school-manager
+```
 
 ### Setting up Laravel enviroment
 
