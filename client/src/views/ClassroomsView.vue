@@ -18,7 +18,7 @@ const handleUpdateList = () => {
         @update-list="handleUpdateList"
       />
     </section>
-    <section>
+    <section class="d-flex justify-content-center">
       <ClassroomsList :refresh="refreshKey" />
     </section>
   </article>

@@ -14,7 +14,7 @@ const handleUpdateList = () => {
   <article class="d-flex flex-column gap-2">
     <section class="d-flex justify-content-center">
       <CreateEditStudentModal
-        class="btn-primary mx-auto"
+        class="btn-primary"
         @update-list="handleUpdateList"
       />
     </section>
@@ -22,6 +22,7 @@ const handleUpdateList = () => {
       <StudentsList
         route="alunos"
         :refresh="refreshKey"
+        class="d-flex justify-content-center"
       />
     </section>
   </article>

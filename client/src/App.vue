@@ -9,7 +9,7 @@ import Footer from './components/Footer.vue';
     <Navbar />
 
     <div class="col-12 d-flex justify-content-center flex-grow-1">
-      <main class="col-10 col-md-12 p-2 bg-body-tertiary">
+      <main class="col-12 col-lg-10 p-2 bg-body-tertiary">
         <RouterView />
       </main>
     </div>      
