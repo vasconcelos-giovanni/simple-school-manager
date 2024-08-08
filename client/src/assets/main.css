@@ -1,35 +1,38 @@
-@import './base.css';
+/* .btn {
+  border-radius: 1.3rem !important;
+} */
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+/* .btn {
+  color: black !important;; */
+  /* border-width: 1.6px !important; */
+  /* border-width: 2px !important; */
+  /* font-weight: 700 !important; */
+/* } */
+/* .btn:hover {
+  color: white !important;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+.btn-primary {
+  background-color: #CFE2FF !important;
+}
+.btn-primary:hover {
+  background-color: #0D6EFD !important;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.btn-warning {
+  background-color: #FFF3CD !important;
+}
+.btn-warning:hover {
+  background-color: #FFC107 !important;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.btn-danger {
+  background-color: #F8D7DA !important;
 }
+.btn-danger:hover {
+  background-color: #DC3545 !important;
+}
+
+.no-border {
+  border:none !important;
+} */

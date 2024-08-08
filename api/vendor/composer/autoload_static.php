@@ -513,10 +513,16 @@ class ComposerStaticInit7e8c3c14ff33b199b4a0838993eb8423
     );
 
     public static $classMap = array (
+        'App\\Http\\Controllers\\AlunoController' => __DIR__ . '/../..' . '/app/Http/Controllers/AlunoController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\TurmaController' => __DIR__ . '/../..' . '/app/Http/Controllers/TurmaController.php',
+        'App\\Http\\Requests\\StoreAlunoRequest' => __DIR__ . '/../..' . '/app/Http/Requests/StoreAlunoRequest.php',
         'App\\Http\\Requests\\StoreTurmaRequest' => __DIR__ . '/../..' . '/app/Http/Requests/StoreTurmaRequest.php',
+        'App\\Http\\Requests\\UpdateAlunoRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UpdateAlunoRequest.php',
         'App\\Http\\Requests\\UpdateTurmaRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UpdateTurmaRequest.php',
+        'App\\Http\\Resources\\AlunoResource' => __DIR__ . '/../..' . '/app/Http/Resources/AlunoResource.php',
+        'App\\Http\\Resources\\TurmaResource' => __DIR__ . '/../..' . '/app/Http/Resources/TurmaResource.php',
+        'App\\Models\\Aluno' => __DIR__ . '/../..' . '/app/Models/Aluno.php',
         'App\\Models\\Turma' => __DIR__ . '/../..' . '/app/Models/Turma.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
@@ -639,8 +645,10 @@ class ComposerStaticInit7e8c3c14ff33b199b4a0838993eb8423
         'Cron\\HoursField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/HoursField.php',
         'Cron\\MinutesField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
         'Cron\\MonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
+        'Database\\Factories\\AlunoFactory' => __DIR__ . '/../..' . '/database/factories/AlunoFactory.php',
         'Database\\Factories\\TurmaFactory' => __DIR__ . '/../..' . '/database/factories/TurmaFactory.php',
         'Database\\Factories\\UserFactory' => __DIR__ . '/../..' . '/database/factories/UserFactory.php',
+        'Database\\Seeders\\AlunoSeeder' => __DIR__ . '/../..' . '/database/seeders/AlunoSeeder.php',
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
         'Database\\Seeders\\TurmaSeeder' => __DIR__ . '/../..' . '/database/seeders/TurmaSeeder.php',
         'DateError' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateError.php',

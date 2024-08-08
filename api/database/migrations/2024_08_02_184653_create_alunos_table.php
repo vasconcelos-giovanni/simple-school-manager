@@ -14,9 +14,8 @@ return new class extends Migration
         Schema::create('alunos', function (Blueprint $table) {
             $table->id();
             $table->string('nome');
-            $table->string('email')->unique();
+            $table->string('email');
             $table->string('data_nascimento');
-            $table->unsignedBigInteger('turma_id');
             $table->foreignId('turma_id')->constrained('turmas')->onDelete('cascade');
             $table->timestamps();
             $table->softDeletes();

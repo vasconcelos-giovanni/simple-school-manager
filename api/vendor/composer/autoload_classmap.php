@@ -6,10 +6,16 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Http\\Controllers\\AlunoController' => $baseDir . '/app/Http/Controllers/AlunoController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\TurmaController' => $baseDir . '/app/Http/Controllers/TurmaController.php',
+    'App\\Http\\Requests\\StoreAlunoRequest' => $baseDir . '/app/Http/Requests/StoreAlunoRequest.php',
     'App\\Http\\Requests\\StoreTurmaRequest' => $baseDir . '/app/Http/Requests/StoreTurmaRequest.php',
+    'App\\Http\\Requests\\UpdateAlunoRequest' => $baseDir . '/app/Http/Requests/UpdateAlunoRequest.php',
     'App\\Http\\Requests\\UpdateTurmaRequest' => $baseDir . '/app/Http/Requests/UpdateTurmaRequest.php',
+    'App\\Http\\Resources\\AlunoResource' => $baseDir . '/app/Http/Resources/AlunoResource.php',
+    'App\\Http\\Resources\\TurmaResource' => $baseDir . '/app/Http/Resources/TurmaResource.php',
+    'App\\Models\\Aluno' => $baseDir . '/app/Models/Aluno.php',
     'App\\Models\\Turma' => $baseDir . '/app/Models/Turma.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
@@ -132,8 +138,10 @@ return array(
     'Cron\\HoursField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/HoursField.php',
     'Cron\\MinutesField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
     'Cron\\MonthField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
+    'Database\\Factories\\AlunoFactory' => $baseDir . '/database/factories/AlunoFactory.php',
     'Database\\Factories\\TurmaFactory' => $baseDir . '/database/factories/TurmaFactory.php',
     'Database\\Factories\\UserFactory' => $baseDir . '/database/factories/UserFactory.php',
+    'Database\\Seeders\\AlunoSeeder' => $baseDir . '/database/seeders/AlunoSeeder.php',
     'Database\\Seeders\\DatabaseSeeder' => $baseDir . '/database/seeders/DatabaseSeeder.php',
     'Database\\Seeders\\TurmaSeeder' => $baseDir . '/database/seeders/TurmaSeeder.php',
     'DateError' => $vendorDir . '/symfony/polyfill-php83/Resources/stubs/DateError.php',

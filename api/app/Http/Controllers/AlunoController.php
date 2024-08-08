@@ -58,7 +58,7 @@ class AlunoController extends Controller
     {
         DB::transaction(function () use ($request, $aluno) {
             $aluno->update($request->validated());
-            return response()->json(new AlunoResource($aluno));
+            return response()->json(new AlunoResource($aluno), Response::HTTP_OK);
         });
     }
 

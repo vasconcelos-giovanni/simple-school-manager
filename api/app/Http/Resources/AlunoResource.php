@@ -19,8 +19,10 @@ class AlunoResource extends JsonResource
             'id' => $this->id,
             'nome' => $this->nome,
             'email' => $this->email,
-            'data_nascimento' => Carbon::parse($this->data_nascimento)->format('d-m-Y'),
+            'data_nascimento' => Carbon::parse($this->data_nascimento)->format('Y-m-d'),
             'turma_id' => $this->turma_id,
         ];
     }
 }
+
+// 'data_nascimento' => Carbon::parse($this->data_nascimento)->format('d-m-Y'),

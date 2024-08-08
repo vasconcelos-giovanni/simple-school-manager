@@ -24,12 +24,12 @@ class StoreAlunoRequest extends FormRequest
     {
         return [
             'nome' => 'required|string|max:255',
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:alunos,email'],
+            'email' => ['required', 'string', 'email', 'max:255'],
             'data_nascimento' => 'required|date',
             'turma_id' => [
                 'required',
                 'integer',
-                Rule::exists('turmas', 'id') // Ensure the turma_id exists in the turmas table
+                Rule::exists('turmas', 'id')
             ],
         ];
     }

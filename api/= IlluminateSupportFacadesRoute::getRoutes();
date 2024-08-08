@@ -1,0 +1,83 @@
+[90m= [39m[
+    [
+      "[34mname[39m" => "[32msanctum.csrf-cookie[39m",
+      "[34muri[39m" => "[32msanctum/csrf-cookie[39m",
+      "[34mmethods[39m" => "[32mGET, HEAD[39m",
+    ],
+    [
+      "[34mname[39m" => "[32mN/A[39m",
+      "[34muri[39m" => "[32mapi/user[39m",
+      "[34mmethods[39m" => "[32mGET, HEAD[39m",
+    ],
+    [
+      "[34mname[39m" => "[32mturmas.index[39m",
+      "[34muri[39m" => "[32mapi/turmas[39m",
+      "[34mmethods[39m" => "[32mGET, HEAD[39m",
+    ],
+    [
+      "[34mname[39m" => "[32mturmas.store[39m",
+      "[34muri[39m" => "[32mapi/turmas[39m",
+      "[34mmethods[39m" => "[32mPOST[39m",
+    ],
+    [
+      "[34mname[39m" => "[32mturmas.show[39m",
+      "[34muri[39m" => "[32mapi/turmas/{turma}[39m",
+      "[34mmethods[39m" => "[32mGET, HEAD[39m",
+    ],
+    [
+      "[34mname[39m" => "[32mturmas.update[39m",
+      "[34muri[39m" => "[32mapi/turmas/{turma}[39m",
+      "[34mmethods[39m" => "[32mPUT, PATCH[39m",
+    ],
+    [
+      "[34mname[39m" => "[32mturmas.destroy[39m",
+      "[34muri[39m" => "[32mapi/turmas/{turma}[39m",
+      "[34mmethods[39m" => "[32mDELETE[39m",
+    ],
+    [
+      "[34mname[39m" => "[32malunos.index[39m",
+      "[34muri[39m" => "[32mapi/alunos[39m",
+      "[34mmethods[39m" => "[32mGET, HEAD[39m",
+    ],
+    [
+      "[34mname[39m" => "[32malunos.store[39m",
+      "[34muri[39m" => "[32mapi/alunos[39m",
+      "[34mmethods[39m" => "[32mPOST[39m",
+    ],
+    [
+      "[34mname[39m" => "[32malunos.show[39m",
+      "[34muri[39m" => "[32mapi/alunos/{aluno}[39m",
+      "[34mmethods[39m" => "[32mGET, HEAD[39m",
+    ],
+    [
+      "[34mname[39m" => "[32malunos.update[39m",
+      "[34muri[39m" => "[32mapi/alunos/{aluno}[39m",
+      "[34mmethods[39m" => "[32mPUT, PATCH[39m",
+    ],
+    [
+      "[34mname[39m" => "[32malunos.destroy[39m",
+      "[34muri[39m" => "[32mapi/alunos/{aluno}[39m",
+      "[34mmethods[39m" => "[32mDELETE[39m",
+    ],
+    [
+      "[34mname[39m" => "[32mturmas.alunos[39m",
+      "[34muri[39m" => "[32mapi/turmas/{turma}/alunos[39m",
+      "[34mmethods[39m" => "[32mGET, HEAD[39m",
+    ],
+    [
+      "[34mname[39m" => "[32mN/A[39m",
+      "[34muri[39m" => "[32mapi/test[39m",
+      "[34mmethods[39m" => "[32mGET, HEAD[39m",
+    ],
+    [
+      "[34mname[39m" => "[32mN/A[39m",
+      "[34muri[39m" => "[32mup[39m",
+      "[34mmethods[39m" => "[32mGET, HEAD[39m",
+    ],
+    [
+      "[34mname[39m" => "[32mN/A[39m",
+      "[34muri[39m" => "[32m/[39m",
+      "[34mmethods[39m" => "[32mGET, HEAD[39m",
+    ],
+  ]
+

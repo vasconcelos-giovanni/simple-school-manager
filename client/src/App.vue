@@ -1,18 +1,30 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router';
-import HelloWorld from './components/HelloWorld.vue';
-import ClassroomCard from './components/ClassroomCard.vue';
-import StudentsTable from './components/StudentCard.vue';
-import CreateEditStudentModal from './components/CreateEditStudentModal.vue';
-import CreateEditClassroomModal from './components/CreateEditClassroomModal.vue';
-
-
+import { RouterView } from 'vue-router';
+import Navbar from './components/Navbar.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
-  <CreateEditClassroomModal />
-  <CreateEditStudentModal />
-  <StudentsTable />
-  <ClassroomCard />
-  <!-- <RouterView /> -->
+  <div class="col-12 bg-body d-flex flex-column vh-100">
+    <Navbar />
+
+    <div class="col-12 d-flex justify-content-center flex-grow-1">
+      <main class="col-10 col-md-12 p-2 bg-body-tertiary">
+        <RouterView />
+      </main>
+    </div>      
+    
+    <Footer />
+  </div>
 </template>
+
+<style>
+.card-width {
+  min-width: 20rem;
+  max-width: 20rem;
+}
+
+.height-100 {
+  min-height: 100%;
+}
+</style>

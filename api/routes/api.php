@@ -20,3 +20,27 @@ Route::prefix('turmas')->group(function () {
         Route::get('{turma}/alunos', 'alunos')->name('turmas.alunos');
     });
 });
+
+// Route::get('/routes', function () {
+//     return response()->json([
+//         'test' => route('test.index'),
+//         // Add more routes here if needed
+//     ]);
+// })->name('api.routes');
+
+Route::get('test', function() {
+    $r = Route::getRoutes();
+    foreach ($r as $value) {
+        echo $value->getName();
+        echo "<br/>";
+        echo $value->uri();
+        echo "<br/><br/>";
+    }
+    dd("Routes end");
+
+    // return "HELLO, WORLD!";
+});
+
+// Route::get('test', function() {
+//     dd("oi");
+// });

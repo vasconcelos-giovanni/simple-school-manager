@@ -12,7 +12,7 @@ class UpdateAlunoRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,7 @@ class UpdateAlunoRequest extends FormRequest
     {
         return [
             'nome' => 'required|string|max:255',
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:alunos,email'],
+            'email' => ['required', 'string', 'email', 'max:255'],
             'data_nascimento' => 'required|date',
             'turma_id' => [
                 'required',
